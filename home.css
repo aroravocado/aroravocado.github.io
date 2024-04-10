@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(220, 219, 219);
+    /* font-family: 'Poppins'; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-image: linear-gradient(to right, #1c4f79, #2f76c3);
+    width: 100%;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.container{
+    background: white;
+    box-shadow: 0 0 8px black;
+    /* border-radius: 3px; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container-head{
+    width: 100%;
+    background: #133c55;
+    height: 70px;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-details{
+    border-radius: 5px;
+    /* padding: 15px 20px; */
+    width: 90%;
+    margin: auto;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px black;
+}
+
+#detail-head{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(88, 87, 87);
+    border-bottom: 2px solid rgb(229, 229, 229);
+    padding: 10px 0;
+}
+
+.details-container{
+    display: flex;
+    font-size: 15px;
+    padding: 20px 20px 5px 20px;
+}
+
+.details{
+    width: 50%;
+    float: left;
+}
+
+.details p{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.details p span{
+    font-weight: 600;
+}
+
+.tables{
+    width: 90%;
+    margin: auto;
+    padding: 0 0 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #959595;
+}
+
+th {
+    background-color: #184f76;
+    color: white;
+    height: 60px;
+}
+
+.text-center {
+    text-align: center;
+    background: #133c55;
+    color: white;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: 0 0 8px grey;
+}
+
+.thin-border {
+    box-shadow: 0 0 3px black;
+    text-align: center;
+}
+
+.grey-bg{
+    background: #ebeff2;
+}
+
+.course{
+    text-align: left;
+}
+
+.slno{
+    width: 60px;
+}
+
+.marks{
+    width: 100px;
+    padding: 10px;
+}
+
+.grades{
+    width: 80px;
+}
+
+.grade{
+    color: #016b0f;
+    font-weight: bold;
+}
+
+.last{
+    width: 90%;
+    margin: auto;
+}
+
+.note{
+    font-size: 17px;
+    color: rgb(30, 30, 30);
+}
+
+.result-summary{
+    box-shadow: 0 0 8px black;
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(30, 30, 30);
+}
+
+#result-head{
+    background: #133c55;
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    padding: 18px 0;
+    font-weight: 600;
+}
+
+.result-summary-container{
+    padding: 20px;
+    font-size: 17px;
+}
+
+.result-summary-container p span{
+    color: #02680f;
+    font-weight: bold;
+}
+
+.result-summary-container p{
+    padding: 5px;
+}
+
+.last-note{
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 0 20px  0;
+}
